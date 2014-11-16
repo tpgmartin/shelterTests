@@ -1,0 +1,99 @@
+#container {
+  text-align: center;
+  margin: 0 auto;
+  width: 1052px;
+  font-family: sans-serif;
+}
+#container > * {
+  margin-top: 20px;
+}
+#header, #banner {
+  margin-top: 0;
+}
+#footer {
+  margin-top: 60px
+}
+section {
+  height: 450px;
+  width: 956px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+section > div {
+  text-align: left;
+  padding: 10px 20px;
+  width: 45%;
+  float: left;
+}
+#form-container {
+  border: 2px solid #d3d3d3 ;
+  float: left;
+}
+#form-container > div {
+  margin-top: 20px;
+}
+.form-elem {
+  padding: 5px 10px;
+}
+div {
+  margin-top: 7px;
+}
+input[type="text"] {
+  margin-top: 5px;
+  width: 250px;
+  height: 25px;
+  border: 1px solid #e3e3e3;
+  border-radius: 3px;
+}
+input#postcode {
+  width: 100px;
+}
+input[type="submit"] {
+  padding: 10px;
+  border: 1px solid #900;
+  border-radius: 1px;
+  background-color: #f00;
+  color: #fff;
+  font-size: 1em;
+}
+.label {
+  display: inline-block;
+  font-weight: bold;
+}
+#share-container > button {
+  padding: 15px 20px;
+  margin: 0 1%;
+  width: 47%;
+  float: left;
+  font-size: 1em;
+}
+span:after {
+  content: '\0020\25B6';
+  color: #f00;
+}
+img {
+  margin: 0 auto;
+}
+h2 {
+  margin-top: 0;
+  color: #f00;
+  font-family: 'Raleway', sans-serif;
+}
+a {
+  color: #00b0b0;
+}
+#twitter {
+  padding: 15px 0;
+  color: #fff;
+  text-align: left;
+  background-color: #00b0b0;
+  border: none;
+  border-radius: 3px;
+}
+#facebook {
+  color: #fff;
+  text-align: left;
+  background-color: #3b5998;
+  border: none;
+  border-radius: 3px;
+}
